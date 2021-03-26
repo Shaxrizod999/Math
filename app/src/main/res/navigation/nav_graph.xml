@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/onbeshFragment">
+
+    <fragment
+        android:id="@+id/onbeshFragment"
+        android:name="uz.mobiler.project.variantlar.OnbeshFragment"
+        android:label="OnbeshFragment" />
+    <dialog
+        android:id="@+id/timerPickerFragment"
+        android:name="uz.mobiler.project.fragments.TimerPickerFragment"
+        android:label="TimerPickerFragment" />
+    <fragment
+        android:id="@+id/savollarFragment"
+        android:name="uz.mobiler.project.fragments.SavollarFragment"
+        android:label="fragment_savollar"
+        tools:layout="@layout/fragment_savollar" />
+    <fragment
+        android:id="@+id/studentFragment2"
+        android:name="uz.mobiler.project.fragments.StudentFragment"
+        android:label="fragment_student"
+        tools:layout="@layout/fragment_student" />
+</navigation>

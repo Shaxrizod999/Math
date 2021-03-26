@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1078446291995",
+    "firebase_url": "https://matematika-b5e4a-default-rtdb.firebaseio.com",
+    "project_id": "matematika-b5e4a",
+    "storage_bucket": "matematika-b5e4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078446291995:android:9f3e0561692b8cba520cbe",
+        "android_client_info": {
+          "package_name": "uz.android.firebasedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078446291995-bnm1krbq97tbfske1vecd3l95ieoflqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdG5S_alT_XJ1jfP3KTba9ACIIXfX44Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078446291995-bnm1krbq97tbfske1vecd3l95ieoflqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

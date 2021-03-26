@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="uz.mobiler.project.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="uz.mobiler.project.fragments.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="uz.mobiler.project.fragments.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/abituriyentFragment"
+        android:name="uz.mobiler.project.fragments.AbituriyentFragment"
+        android:label="Abituriyentlar uchun"
+        tools:layout="@layout/fragment_abituriyent" />
+    <fragment
+        android:id="@+id/oqituvchiFragment"
+        android:name="uz.mobiler.project.fragments.OqituvchiFragment"
+        android:label="fragment_oqituvchi"
+        tools:layout="@layout/fragment_oqituvchi" />
+
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="uz.mobiler.project.fragments.CalculatorFragment"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/maktabFragment"
+        android:name="uz.mobiler.project.fragments.MaktabFragment"
+        android:label="fragment_maktab"
+        tools:layout="@layout/fragment_maktab" />
+
+
+
+</navigation>

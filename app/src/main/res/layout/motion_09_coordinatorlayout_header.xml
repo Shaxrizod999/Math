@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz.mobiler.project.utils.CollapsibleToolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/motionLayout"
+    app:layoutDescription="@xml/scene_09"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="50dp"
+    android:fitsSystemWindows="false"
+    app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed"
+    tools:ignore="MissingClass">
+
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@color/purple_500"
+        android:scaleType="centerCrop"
+        android:src="@drawable/onbeshyuzi" />
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015 test savollari"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp" />
+
+</uz.mobiler.project.utils.CollapsibleToolbar>

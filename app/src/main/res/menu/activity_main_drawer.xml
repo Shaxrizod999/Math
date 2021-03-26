@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/main_menu">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Bosh menu"/>
+    </group>
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/maktabFragment"
+            android:icon="@drawable/students"
+            android:title="Maktab o'quvchilari uchun"/>
+        <item
+            android:id="@+id/abituriyentFragment"
+            android:icon="@drawable/abitur"
+            android:title="Abituriyentlar uchun" />
+        <item
+            android:id="@+id/oqituvchiFragment"
+            android:icon="@drawable/teachers"
+            android:title="O'qituvchilar uchun" />
+
+        <item
+            android:id="@+id/studentFragment"
+            android:icon="@drawable/olimp"
+            android:title="Olimpiadachilar uchun"/>
+
+        <item
+            android:id="@+id/calculatorFragment"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            android:title="Kalkulyator"/>
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_fingerprint_24"
+            android:title="Admin bo'limi"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Sozlamalar"/>
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Ulashish"/>
+
+    </group>
+</menu>
